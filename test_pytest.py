@@ -10,3 +10,7 @@ def test_func_fast():
 @pytest.mark.slow
 def test_func_slow():
     pass
+
+def test_request():
+    req1 = 201
+    assert req1 == 201
